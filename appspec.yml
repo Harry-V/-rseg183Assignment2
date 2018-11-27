@@ -8,5 +8,17 @@ hooks:
     - location: \beforeinstall.bat
       timeout: 500
   AfterInstall:
-    - location: \afterinstall.sh
+    - location: \afterinstall.bat
+      timeout: 500
+  Install:
+    - location: \install.bat
+      timeout: 500
+  AfterInstall:
+    - location: \afterinstall.bat
+      timeout: 500
+  ApplicationStart:
+    - location: \applicationstart.bat
+      timeout: 500
+  ValidateService:
+    - location: \validateservice.bat
       timeout: 500
