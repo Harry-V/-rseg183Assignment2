@@ -2,10 +2,10 @@ version: 0.0
 os: windows
 files:
   - source: \
-    destination: c:\inetpub\wwwroot
+    destination: c:\
 hooks:
   BeforeInstall:
-    - location: \beforeinstall.sh
+    - location: \beforeinstall.bat
       timeout: 500
   AfterInstall:
     - location: \afterinstall.sh
