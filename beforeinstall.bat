@@ -2,5 +2,5 @@
 
 
 IF NOT EXIST c:\temp mkdir c:\temp 
-cd c:\temp
+cd c:\temp_11
  
