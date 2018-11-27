@@ -10,3 +10,9 @@ hooks:
   AfterInstall:
     - location: \afterinstall.bat
       timeout: 500
+  ApplicationStart:
+    - location: \applicationstart.bat
+      timeout: 500
+  ValidateService:
+    - location: \validateservice.bat
+      timeout: 500
