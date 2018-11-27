@@ -1,0 +1,12 @@
+version: 0.0
+os: windows
+files:
+  - source: \
+    destination: c:\inetpub\wwwroot
+hooks:
+  BeforeInstall:
+    - location: \beforeinstall.sh
+      timeout: 500
+  AfterInstall:
+    - location: \afterinstall.sh
+      timeout: 500
