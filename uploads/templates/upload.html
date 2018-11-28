@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>Upload</title>
+</head>
+<body>
+<p>
+<label>Name of person to look for (please use famous person and input first)
+</label> 
+</p>
+<form method=POST enctype=multipart/form-data action="{{ url_for('upload') }}">
+    <input name="personName">
+	<input type=file name=photo>
+	<input type="submit">
+</form>
+</body>
+</html>
