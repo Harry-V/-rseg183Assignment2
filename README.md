@@ -1,4 +1,8 @@
 # -rseg183Assignment2
 
 Installations needed:
-miniconda, boto3, flask, flask_uploads, and awscli
+Miniconda 
+pip install boto3 
+pip install flask
+pip install flask_uploads 
+pip install awscli
